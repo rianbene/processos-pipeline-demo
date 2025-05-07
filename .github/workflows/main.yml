@@ -1,4 +1,4 @@
-name: Pipeline de Teste
+name: Workflow de Teste
 
 on:
   push:
