@@ -1,0 +1,16 @@
+name: Pipeline de Teste
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4.2.2
+     
+      - name: Mensagem de sucesso
+        run: echo "✅ O ACTIONS RODOU!"
